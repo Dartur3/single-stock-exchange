@@ -1,0 +1,36 @@
+# Build output folders (Debug, Release, x64, x86)
+Debug/
+x64/
+Release/
+x86/
+$(Configuration)/
+
+# Executable and object files
+*.exe
+*.obj
+*.o
+
+# Debug libraries and temporary build files
+*.pdb
+*.ilk
+*.idb
+*.log
+*.tlog/
+*.user
+*.vcxproj.user
+*.suo
+*.sdf
+ipch/
+*.DotSettings.user
+*.opensdf
+
+# Debug/Release folders inside the Giełda folder
+Giełda/Debug/
+Giełda/Release/
+
+# SFML library DLL files
+sfml-*.dll
+sfml-*-d.dll
+openal32.dll
+
+.vs/*
