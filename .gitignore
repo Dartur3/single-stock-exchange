@@ -1,16 +1,14 @@
-# Build output folders (Debug, Release, x64, x86)
+build/
 Debug/
-x64/
 Release/
+x64/
 x86/
 $(Configuration)/
 
-# Executable and object files
 *.exe
 *.obj
 *.o
 
-# Debug libraries and temporary build files
 *.pdb
 *.ilk
 *.idb
@@ -23,14 +21,17 @@ $(Configuration)/
 ipch/
 *.DotSettings.user
 *.opensdf
+*.opensdf
 
-# Debug/Release folders inside the Giełda folder
-Giełda/Debug/
-Giełda/Release/
+Gielda/Debug/
+Gielda/Release/
+Gielda/x64/
+Gielda/x86/
 
-# SFML library DLL files
 sfml-*.dll
 sfml-*-d.dll
 openal32.dll
+
+Save/
 
 .vs/*
