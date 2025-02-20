@@ -1,0 +1,4 @@
+Gielda/*.cpp linguist-language=C++
+Gielda/*.h linguist-language=C++
+*.cpp linguist-language=C++
+*.h linguist-language=C++
